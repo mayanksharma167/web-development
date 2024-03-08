@@ -12,7 +12,7 @@ body {
 }
 
 .sidebar{
-    background-color: black;
+    background-color: green;
     width: 340px;
     border-radius: 1rem;    /* 1 rem = 16px */
 }
@@ -32,6 +32,7 @@ body {
     height: 72px;
 }
 
+/* Nav style*/
 .nav {
     background-color: #121212;
     border-radius: 1rem;
@@ -64,4 +65,41 @@ a{
 .nav-option a{
     font-size: 1rem;
     margin-left: 1rem;
+}
+
+
+
+/* Library style*/
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    padding: 0.5rem 0.75rem;
+    margin-top: 0.5rem;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.lib-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    opacity: .75;
+    margin-right: 1rem;
+}
+.icons i:hover{
+    opacity: 1;
 }
