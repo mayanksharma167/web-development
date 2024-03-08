@@ -9,12 +9,14 @@ body {
 .main {
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
 
 .sidebar{
-    background-color: green;
+    background-color: black;
     width: 340px;
     border-radius: 1rem;    /* 1 rem = 16px */
+    margin-right: 0.5rem;
 }
 
 .main-content{
@@ -102,4 +104,31 @@ a{
 }
 .icons i:hover{
     opacity: 1;
+}
+
+.box{
+    height: 8rem;
+    background-color: #232323;
+    border-radius: .75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: .75rem 1rem;
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box-p2{
+    font-size: .85rem;
+    opacity: .9;
+}
+
+.badge{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 500;
+    margin-top: .5rem;
+    height: 2rem;
+    width: fit-content;
 }
