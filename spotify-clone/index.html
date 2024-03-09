@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spotify</title>
+    <title>Spotify: Web Player: Music For Everyone</title>
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/426fe516b5.js"
@@ -15,7 +15,9 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="icon" href="assets/logo.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
 
   <body>
@@ -86,37 +88,37 @@
         <div class="cards-container">
           <div class="card">
             <img src="assets/card2img.jpeg" class="card-img" />
-            <p class="card-title">Top 50 - Global</p>
+            <p class="card-title">Mahiye jinna</p>
             <p class="card-info">
-              your daily updates of the most played tracks
+              Darshan Raval
             </p>
           </div>
           <div class="card">
             <img src="assets/card3img.jpeg" class="card-img" />
-            <p class="card-title">Top 50 - Global</p>
+            <p class="card-title">Mere Paas Tum Ho</p>
             <p class="card-info">
-              your daily updates of the most played tracks
+              Nusrat fateh Ali
             </p>
           </div>
           <div class="card">
-            <img src="assets/card2img.jpeg" class="card-img" />
-            <p class="card-title">Top 50 - Global</p>
+            <img src="assets/album-icon3.jpeg" class="card-img" />
+            <p class="card-title">Rock With ME</p>
             <p class="card-info">
-              your daily updates of the most played tracks
+              Doja Cat
             </p>
           </div>
           <div class="card">
-            <img src="assets/card3img.jpeg" class="card-img" />
-            <p class="card-title">Top 50 - Global</p>
+            <img src="assets/album-icon2.jpeg" class="card-img" />
+            <p class="card-title">Eyes Closed</p>
             <p class="card-info">
-              your daily updates of the most played tracks
+              Ed Sheeran
             </p>
           </div>
           <div class="card">
             <img src="assets/card4img.jpeg" class="card-img" />
-            <p class="card-title">Top 50 - Global</p>
+            <p class="card-title">Alter Ego</p>
             <p class="card-info">
-              your daily updates of the most played tracks
+              Navasundram
             </p>
           </div>
           
@@ -125,14 +127,14 @@
         <div class="cards-container">
           <div class="card">
             <img src="assets/card5img.jpeg" class="card-img" />
-            <p class="card-title">Top 50 - Global</p>
+            <p class="card-title">Top Songs Global</p>
             <p class="card-info">
               your daily updates of the most played tracks
             </p>
           </div>
           <div class="card">
             <img src="assets/card6img.jpeg" class="card-img" />
-            <p class="card-title">Top 50 - Global</p>
+            <p class="card-title">Top Songs India</p>
             <p class="card-info">
               your daily updates of the most played tracks
             </p>
@@ -150,7 +152,51 @@
         </div>
       </div>
 
-      <div class="music-player">music payer</div>
+      <div class="music-player">
+        <div class="album">
+          <div class="playing-album">
+            <img src="assets/album-icon1.jpeg" >
+          </div>
+          <div class="playing-album-info">
+            <p>Counting Stars</p>
+            <p style="font-size: .75rem; opacity: .75;">OneRepublic</p>
+          </div>
+          <div class="heart-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="player">
+          <div class="player-controls">
+            <img src="assets/player_icon1.png" class="player-control-icon">
+            <img src="assets/player_icon2.png" class="player-control-icon">
+            <img src="assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+            <img src="assets/player_icon4.png" class="player-control-icon">
+            <img src="assets/player_icon5.png" class="player-control-icon">
+          </div>
+          <div class="playback-bar">
+            <span class="current-time">01:19</span>
+            <input type="range" class="progress-bar" min="0" max="100" step="1">
+            <span class="total-time">03:28</span>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="c1">
+            <i class="fa-solid fa-play control-icon"></i>
+            <i class="fa-solid fa-pen control-icon"></i>
+            <i class="fa-solid fa-bars control-icon"></i>
+            <i class="fa-solid fa-laptop control-icon"></i>
+            <i class="fa-solid fa-volume-high control-icon"></i>
+            <input type="range" class="progress-bar control-icon" min="0" max="100" step="1" style="width: 20%; opacity: 1;">
+            <span class="material-symbols-outlined">
+              picture_in_picture_alt
+              </span>
+              <span class="material-symbols-outlined">
+    
+                open_in_full
+                </span>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
