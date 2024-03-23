@@ -25,6 +25,7 @@ body {
     border-radius: 1rem;
     overflow: auto;
     padding: 0 1.5rem 6rem 1.5rem;
+    height: 80.8%;
 }
 
 .music-player {
@@ -32,7 +33,7 @@ body {
     position: fixed;
     bottom: 0px;
     width:  100%;
-    height: 72px;
+    height: 77px;
 }
 
 /* Nav style*/
@@ -76,9 +77,10 @@ a{
 .library{
     background-color: #121212;
     border-radius: 1rem;
-    height: 100%;
+    height: 76%;
     padding: 0.5rem 0.75rem;
     margin-top: 0.5rem;
+    
 }
 .options{
     display: flex;
@@ -142,6 +144,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
 }
 
 .sticky-nav-icons{
@@ -194,15 +197,124 @@ a{
 }
 
 .footer{
+<<<<<<< HEAD
     height: 200px;
+=======
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white ;
+    opacity: .4;
+}
+
+.music-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album {
+    width: 25%;
+    display: flex
+
+}
+.playing-album-info{
+    line-height: .4rem;
+    margin-top: 1.2rem;
+}
+.playing-album img{
+    display: flex;
+    height: 60px;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 20px;
+}
+.heart-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.75rem;
+    opacity: 0.75;
+}
+.heart-icon:hover{
+    opacity: 1;
+}
+
+.player{
+    width: 50%;
+
+}
+
+.controls {
+    width: 25%;
+    background-color: black;
+    
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c1 span{
+    height: auto;
+    font-size: 21px;
+    opacity: .80;
+    margin-right: .5rem;
+}
+.control-icon{
+    margin-right: 15px;
+    opacity: .70;
+}
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-control-icon{
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: .75;
+    
+}
+.player-control-icon:hover{
+    opacity: 1;
+}
+.playback-bar{
+>>>>>>> 7f9fbed56fd22388e222560341d16f60188e5202
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .line{
     width: 90%;
     height: 30%;
     border-top: 1px solid #fff;
     opacity: .4;
+=======
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer ;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    height: .2rem;
+}
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color:#1bd760 ;
+    border-radius: 50%;
+    margin-top: -6px;
+
+>>>>>>> 7f9fbed56fd22388e222560341d16f60188e5202
 }
