@@ -197,9 +197,7 @@ a{
 }
 
 .footer{
-<<<<<<< HEAD
     height: 200px;
-=======
     height: 100px;
     display: flex;
     align-items: center;
@@ -284,19 +282,17 @@ a{
     opacity: 1;
 }
 .playback-bar{
->>>>>>> 7f9fbed56fd22388e222560341d16f60188e5202
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-<<<<<<< HEAD
 .line{
     width: 90%;
     height: 30%;
     border-top: 1px solid #fff;
     opacity: .4;
-=======
+}
 .progress-bar{
     width: 70%;
     appearance: none;
@@ -316,5 +312,4 @@ a{
     border-radius: 50%;
     margin-top: -6px;
 
->>>>>>> 7f9fbed56fd22388e222560341d16f60188e5202
 }
