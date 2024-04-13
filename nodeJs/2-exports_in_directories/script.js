@@ -1,5 +1,3 @@
-const somevalue = require("./math");
+const fruits = require("./fruits");
 
-console.log(somevalue);
-console.log(somevalue.sum(3,5));
-console.log(somevalue.mul(423,44))
+console.log(fruits[0].name);
