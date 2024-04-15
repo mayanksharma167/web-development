@@ -11,3 +11,4 @@ Global installation:
 ```python
 npm install -g <packageName>
 ```
+After this, link it to use.
