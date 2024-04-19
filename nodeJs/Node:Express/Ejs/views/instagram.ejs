@@ -1,23 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
-</head>
+<%- include("includes/head") %>
 <body>
-    <h2>This page belongs to : <%= username %></h2>
+    <h2>This page belongs to : <%= data.name %></h2>
     <button>Follow</button>
     <button>Message</button>
 
-    <h2>Accounts that follows you.</h2>
-<ul>
-    
-    <% for(name of followers){ %>
-        <li><%= name %> </li>
+    <p>Follwers: <%= data.followers %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Follwing: <%= data.following %></p>
+    <hr> <hr />
+    <% for(let post of data.posts){ %> 
+        <img src="<%= post.image %>" alt="">
+        <p>Likes: <%= post.likes %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Comments: <%= post.comments %></p>
     <% } %>
 
-</ul>
-    
+    <%- include("includes/footer") %>
 </body>
 </html>
