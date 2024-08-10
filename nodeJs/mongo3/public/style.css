@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.chat{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.msg{
+    background-color: orange;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+.from{
+    background-color:green;
+    color: white;
+}
+
+.to{
+    background-color: aqua;
+}
